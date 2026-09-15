@@ -5,46 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
     <!-- bootstarp -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body>
+<body >
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark pb-5">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white " href="#">CarRide</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Book</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link text-white" href="#">How it works</a>
-
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled text-white" aria-disabled="true">Contact</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-
-                    <a href="" class="bg-warning text-decoration-none text-white px-3 py-1 rounded-2">My Bookings</a>
-                </form>
+ <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark pb-5">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white " href="#">CarRide</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Book</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white" href="#">How it works</a>
+    
+    
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-white" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+    
+                        <a href="" class="bg-warning text-decoration-none text-white px-3 py-1 rounded-2">My Bookings</a>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    
+ </div>
 
     <div class="bg-dark text-white d-flex flex-column  align-items-center " style="height: 300px;">
         <h1 class="fw-bold" style="margin-top: 30px;">Rent a Car in minutes</h1>
@@ -53,7 +56,7 @@
     </div>
 
     <!--  box-small -->
-    <div style="margin-top: -100px; margin-left: 25%; " class="border shadow w-50 rounded-2 bg-white d-md-none ">
+    <div style="margin-top: -100px; margin-left: 25%; " class="  border shadow w-50 rounded-2 bg-white d-md-none ">
 
         <form class="d-flex-col">
             <div class="my-3 mx-3">
@@ -128,7 +131,8 @@
             <div class="row g-3 align-items-center">
 
                 <div class="col-auto w-10">
-                    <input type="password" id="inputPassword6" class="form-control" placeholder=" ">
+                    <input type="text" id="inputPassword6" class="form-control" placeholder="Vehicle Type"> 
+                   
                 </div>
 
             </div>
@@ -137,7 +141,7 @@
         </div>
 
         <div class="col" style="margin-top: 37px; ">
-            <a href="" class="bg-warning text-decoration-none  py-2 px-4 text-dark rounded-2">Search Car</a>
+            <a href="" class="bg-warning text-decoration-none  py-2 px-4  text-dark rounded-2">Search Car</a>
         </div>
 
 
@@ -225,30 +229,32 @@
     <!-- how It work -->
     <h1 class="text-center my-5">How it works</h1>
 
-    <div class="row ">
-        <div class="text-center  col">
-            <h2 class="rounded-circle bg-dark text-white d-flex justify-content-center align-items-center"
-                style="width: 75px; height: 75px; margin-left: 41%;">1</h2>
-            <h4>Choose your car</h4>
-            <p>Filter by size, fuel type, or price and compare availability.</p>
-
+    <div class="container">
+        <div class="row ">
+            <div class="text-center  col">
+                <h2 class="rounded-circle bg-dark text-white d-flex justify-content-center align-items-center"
+                    style="width: 75px; height: 75px; margin-left: 41%;">1</h2>
+                <h4>Choose your car</h4>
+                <p>Filter by size, fuel type, or price and compare availability.</p>
+    
+            </div>
+            <div class="text-center col">
+                <h2 class="rounded-circle bg-dark text-white d-flex justify-content-center align-items-center"
+                    style="width: 75px; height: 75px; margin-left: 41%;">2</h2>
+                <h4>Verify and book</h4>
+                <p>Upload your licence, pay online, get instant confirmation.</p>
+            </div>
+            <div class="text-center col">
+                <h2 class="rounded-circle bg-dark text-white d-flex justify-content-center align-items-center"
+                    style="width: 75px; height: 75px; margin-left: 41%;">3</h2>
+                <h4>Skip the counter</h4>
+                <p>Scan your QR code at the lot, grab the keys, and drive off.</p>
+    
+            </div>
+    
         </div>
-        <div class="text-center col">
-            <h2 class="rounded-circle bg-dark text-white d-flex justify-content-center align-items-center"
-                style="width: 75px; height: 75px; margin-left: 41%;">2</h2>
-            <h4>Verify and book</h4>
-            <p>Upload your licence, pay online, get instant confirmation.</p>
-        </div>
-        <div class="text-center col">
-            <h2 class="rounded-circle bg-dark text-white d-flex justify-content-center align-items-center"
-                style="width: 75px; height: 75px; margin-left: 41%;">3</h2>
-            <h4>Skip the counter</h4>
-            <p>Scan your QR code at the lot, grab the keys, and drive off.</p>
-
-        </div>
-
+    
     </div>
-
     <!-- ready to road -->
     <div style="height: 300px;" class="mt-5 bg-warning text-center pt-5">
         <h1 class="mt-5">Ready for the road?</h1>
